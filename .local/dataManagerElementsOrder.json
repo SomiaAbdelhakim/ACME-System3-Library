@@ -1,0 +1,144 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem3/ACME3_LogIn.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ACME3Exists&Sequence_6",
+        "Acme3Opened&Sequence_8",
+        "CredExsits&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "in_UserName",
+        "in_Password"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NewActivity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem3/ACME3_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Acme3Exists&Sequence_14",
+        "Ame3PathExists&Sequence_14",
+        "Acme3Exists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "in_Acme3Path"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem3/ACME3_ClickOnAccountNum.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ClientAccountsExists&Sequence_6",
+        "AccountMovements_Exists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "in_AccountNumber"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem3/ACME3_CloseWindows.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SearchFormExists&Sequence_22",
+        "AccountMovements&Sequence_13",
+        "AccountMovements&Sequence_16",
+        "ClientAccountsExists&Sequence_16",
+        "AccountMovements&Sequence_17",
+        "ClientDetailsExists&Sequence_17",
+        "SearchFormExists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem3/ACME3_ExtractAccountMovements.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AccMovementsExists&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "out_AccMovements"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem3/ACME3_SearchForEachClient.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SearchFormExists&Sequence_6",
+        "ClientIdExists&Sequence_14"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "in_ClientID"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem3/ACME3_OpenSearchForClients.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "WelcomeExists&Sequence_5",
+        "SearchWindowExists&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "in_UserName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem3/ACME3_ClickShowAllButton_AccountMovements.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "NoSearchResult&TryCatch_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
